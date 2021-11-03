@@ -25,7 +25,7 @@ TEST(APHW3Test, NodeTest) {
 TEST(APHW3Test, LinkedListConstructors) {
     LinkedList l1;
     l1.show();      //
-    LinkedList l2{3.14, 20, 13, -5, 0, -3.2};
+    LinkedList l2{3.14, 20, 13, -5, 0, -3.2}; // Help: initializer list
     l2.show();      // 3.14 20 13 -5 0 -3.2
 }
 
